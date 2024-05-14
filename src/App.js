@@ -6,12 +6,21 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>
+          FrostOps
+        </h1>
         <p>
-          FrostOps is a web application for managing Frost operations.
+          Provider of well thought out, engineered solutions
         </p>
-        <p>
-          It is a work in progress and under construction.
-        </p>
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/about">About</a>
+          </li>
+        </ul>
+        
         <a
           className="App-link"
           href="https://reactjs.org"
