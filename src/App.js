@@ -10,17 +10,13 @@ function App() {
           FrostOps
         </h1>
         <p>
-          Provider of well thought out, engineered solutions
+          Provider of rational engineered solutions for industrial applications
         </p>
         <button onClick={() => window.location = 'mailto:info@frost-ops.com'}>Contact us</button>
-      <ul>
-          <li>
-            <a href="/add-on">BTS-600 Add on features</a>
-          </li>
-          <li>
-            <a href="/canva">Custom canva pages</a>
-          </li>
-        </ul>
+      
+        <p>
+          Specialing in battery manufacturing, testing, and data management
+        </p>
     
         <a
           className="App-link"
