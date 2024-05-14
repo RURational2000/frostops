@@ -12,15 +12,16 @@ function App() {
         <p>
           Provider of well thought out, engineered solutions
         </p>
-        <ul>
+        <button onClick={() => window.location = 'mailto:info@frost-ops.com'}>Contact us</button>
+      <ul>
           <li>
-            <a href="/">Home</a>
+            <a href="/add-on">BTS-600 Add on features</a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a href="/canva">Custom canva pages</a>
           </li>
         </ul>
-        
+    
         <a
           className="App-link"
           href="https://reactjs.org"
